@@ -1,0 +1,32 @@
+{
+    "dependencies": [
+        {
+            "mod": {
+                "modId": "mw_basis",
+                "revisionMin": 1
+            },
+            "modInfo": {
+                "displayName": "ModWerkstatt Base Mod",
+                "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
+            },
+            "loadBefore": false,
+            "optional": false
+        },
+        {
+            "mod": {
+                "modId": "sncf_common_kit",
+                "revisionMin": 1
+            },
+            "modInfo": {
+                "displayName": "SNCF Common Kit",
+                "url": "https://mod.io/g/transportfever3/m/sncf-common-kit#description"
+            },
+            "loadBefore": false,
+            "optional": false
+        }
+    ],
+    "modId": "densha_VSE",
+    "revision": 4,
+    "severityAdd": "None",
+    "severityRemove": "Warning"
+}

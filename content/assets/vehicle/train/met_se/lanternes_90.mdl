@@ -1,0 +1,99 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 11.0918, 1.388, 3.87606, },
+			bbMin = { -11.0918, -1.388, -0.0305398, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 11.2773, 1.388, 1.9533, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+									name = "Lanternes_sncf_90s",
+									transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -9.45, 0.9, 1.35, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+									name = "Lanternes_sncf_licht",
+									transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -9.45, 0.9, 1.35, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+									name = "Lanternes_sncf_90s",
+									transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -9.45, -0.9, 1.35, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+									name = "Lanternes_sncf_licht",
+									transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -9.45, -0.9, 1.35, 1, },
+								},
+							},
+							name = "Lanternes_modernes_back",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 50,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+									name = "Lanternes_sncf_90s",
+									transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -9.45, 0.9, 1.35, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+									name = "Lanternes_sncf_licht",
+									transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -9.45, 0.9, 1.35, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+									name = "Lanterne_sncf",
+									transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -9.45, -0.9, 1.35, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+									name = "Lanternes_sncf_licht",
+									transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -9.45, -0.9, 1.35, 1, },
+								},
+							},
+							name = "Lanternes_modernes_back",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 50,
+				visibleTo = 300,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

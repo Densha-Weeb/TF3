@@ -1,0 +1,363 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 13.35, 4, 8, },
+			bbMin = { -13.35, -4, -0.0244035, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 9.96, 1.54554, 2.07502, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/met_common_inter_front_closed_lod0.msh",
+							name = "met_common_inter_front_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/met_common_inter_back_closed_lod0.msh",
+							name = "met_common_inter_back_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_det_cantonnement_lod0.msh",
+							name = "b4d_det_cantonnement",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_det_roof_lod0.msh",
+							name = "b4d_det_roof",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_door_glass.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_glass_back_left_lod0.msh",
+									name = "door_glass_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_back_left_lod0.msh",
+									name = "door_mesh_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, 1.09, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_door_glass.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_glass_back_right_lod0.msh",
+									name = "door_glass_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_back_right_lod0.msh",
+									name = "door_mesh_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, -1.09, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_door_glass.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_glass_front_left_lod0.msh",
+									name = "door_glass_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_front_left_lod0.msh",
+									name = "door_mesh_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, 1.09, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_door_glass.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_glass_front_right_lod0.msh",
+									name = "door_glass_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_front_right_lod0.msh",
+									name = "door_mesh_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, -1.09, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_ext_lod0.msh",
+							name = "b4d_ext",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_glass.mtl", "/vehicle/train/met_se/mat/vse_glass_grid.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_glass_lod0.msh",
+							name = "b4d_glass",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_b4d_int.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_int_lod0.msh",
+							name = "b4d_int",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/met_common_inter_front_closed_lod1.msh",
+							name = "met_common_inter_front_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/met_common_inter_back_closed_lod1.msh",
+							name = "met_common_inter_back_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_det_cantonnement_lod1.msh",
+							name = "b4d_det_cantonnement",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_det_roof_lod1.msh",
+							name = "b4d_det_roof",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_door_glass.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_glass_back_left_lod1.msh",
+									name = "door_glass_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_back_left_lod1.msh",
+									name = "door_mesh_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, 1.09, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_door_glass.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_glass_back_right_lod1.msh",
+									name = "door_glass_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_back_right_lod1.msh",
+									name = "door_mesh_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, -1.09, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_door_glass.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_glass_front_left_lod1.msh",
+									name = "door_glass_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_front_left_lod1.msh",
+									name = "door_mesh_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, 1.09, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_door_glass.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_glass_front_right_lod1.msh",
+									name = "door_glass_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_front_right_lod1.msh",
+									name = "door_mesh_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, -1.09, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_ext_lod1.msh",
+							name = "b4d_ext",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_glass.mtl", "/vehicle/train/met_se/mat/vse_glass_grid.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_glass_lod1.msh",
+							name = "b4d_glass",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_b4d_int.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_int_lod1.msh",
+							name = "b4d_int",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 400,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/met_common_inter_front_closed_lod2.msh",
+							name = "met_common_inter_front_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/met_common_inter_back_closed_lod2.msh",
+							name = "met_common_inter_back_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_back_left_lod2.msh",
+									name = "door_mesh_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, 1.09, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_back_right_lod2.msh",
+									name = "door_mesh_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, -1.09, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_front_left_lod2.msh",
+									name = "door_mesh_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, 1.09, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+									mesh = "/vehicle/train/met_se/msh/met_common_door_front_right_lod2.msh",
+									name = "door_mesh_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, -1.09, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/b4d_ext_lod2.msh",
+							name = "b4d_ext",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 400,
+				visibleTo = 1500,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "/vehicle/train/met_se/mat/vse_uas_cantonnement_3.mtl", },
+							mesh = "/vehicle/train/met_se/msh/vse_body_lod3.msh",
+							name = "vse_body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 1500,
+				visibleTo = 2000,
+			},
+		},
+		metadata = {  
+			description = { 
+				name = _("SNCF Uas SE Cantonnement 3"),
+			},
+		},
+		version = 2,
+	}
+end

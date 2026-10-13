@@ -1,0 +1,32 @@
+{
+	"en" : {
+		"vse_modName" : "PLM / SNCF - South-East coaches",
+		"vse_modSumm" : "French metalized passenger car from the mid '20s.",
+        "vse_modDesc" : "Constructed in the 1920s by the PLM to sustained it's need with modern passenger coach, they were later the basis for the SNCF's Bruhats passenger coaches. This mod contain all the variants from the PLM era to the latest preseverd variants with repurposed cars for maintenance.",
+		"vse_assetsName" : "PLM / SNCF - South-East coaches",
+		"vse_assetsDesc" : "French metalized passenger car from the mid '20s.",
+		"vse_paramVariant" : "Select a variant",
+		"vse_toolTypeVariant" : "Variant",
+		"vse_paramLightPos" : "Position of end light",
+		"vse_toolTypeLightPos" : "Select a Position",
+		"vse_paramBellow" : "Position bellows",
+		"vse_toolTypeBellow" : "Select a Position",
+		"vse_paramXOffset" : "X Offset",
+		"vse_toolTypeXOffset" : "Slider from -100 to 100 cm with 5 cm steps"
+	},
+	"fr" : {
+		"vse_modName" : "PLM / SNCF - Voitures Sud-Est",
+		"vse_modSumm" : "Voiture voyageurs à caisse métallique du milieu des années 1920.",
+        "vse_modDesc" : "Construites dans les années 1920 par la compagnie PLM pour répondre à ses besoins en voitures voyageurs modernes, elles ont par la suite servi de base aux voitures « Bruhat » de la SNCF. Ce mod inclut toutes les variantes, de l'époque PLM jusqu'aux versions préservées les plus récentes, y compris les voitures reconverties pour la maintenance.",
+		"vse_assetsName" : "PLM / SNCF - Voitures Sud-Est",
+		"vse_assetsDesc" : "Voiture voyageurs à caisse métallique du milieu des années 1920.",
+		"vse_paramVariant" : "Sélectionner une variante",
+		"vse_toolTypeVariant" : "Variante",
+		"vse_paramLightPos" : "Position du feu d'extrémité",
+		"vse_toolTypeLightPos" : "Sélectionner une position",
+		"vse_paramBellow" : "Position de l'intercirculation",
+		"vse_toolTypeBellow" : "Sélectionner une position",
+		"vse_paramXOffset" : "Décalage X",
+		"vse_toolTypeXOffset" : "Curseur de -100 à 100 cm par pas de 5 cm"
+	}
+}

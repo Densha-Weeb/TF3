@@ -1,0 +1,9 @@
+local curtain = require("/vehicle/train/met_se/scripts/met_se_curtains.lua")
+
+function data()
+	local params = {
+		material = "/vehicle/train/met_se/mat/curtain_uas.mtl",
+		config = curtain.configTypes.A7_U,
+	}
+	return curtain.build(params)
+end

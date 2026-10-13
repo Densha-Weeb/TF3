@@ -1,0 +1,1228 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 13.35, 4, 8, },
+			bbMin = { -13.35, -4, -0.0244035, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 9.96, 1.54554, 2.07502, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									children = {
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+											name = "Lanternes_sncf_90s",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+											name = "Lanternes_sncf_licht",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+											name = "Lanternes_sncf_90s",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+											name = "Lanternes_sncf_licht",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, -0.1, 1, },
+										},
+									},
+									name = "Lanternes_modernes_front",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.45, 0, 1.55, 1, },
+								},
+							},
+							name = "frontForward",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									children = {
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+											name = "Lanternes_sncf_90s",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+											name = "Lanternes_sncf_licht",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+											name = "Lanternes_sncf_90s",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+											name = "Lanternes_sncf_licht",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, -0.1, 1, },
+										},
+									},
+									name = "Lanternes_modernes_back",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.45, 0, 1.55, 1, },
+								},
+							},
+							name = "frontBackward",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							name = "innerFront",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							name = "innerBack",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									children = {
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+											name = "Lanternes_sncf_90s",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+											name = "Lanternes_sncf_licht",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+											name = "Lanternes_sncf_90s",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+											name = "Lanternes_sncf_licht",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, -0.1, 1, },
+										},
+									},
+									name = "Lanternes_modernes_back",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.45, 0, 1.55, 1, },
+								},
+							},
+							name = "backForward",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									children = {
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+											name = "Lanternes_sncf_90s",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+											name = "Lanternes_sncf_licht",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
+											name = "Lanternes_sncf_90s",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, -0.1, 1, },
+										},
+										{ 
+											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
+											name = "Lanternes_sncf_licht",
+											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, -0.1, 1, },
+										},
+									},
+									name = "Lanternes_modernes_front",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.45, 0, 1.55, 1, },
+								},
+							},
+							name = "backBackward",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/met_common_inter_front_closed_lod0.msh",
+							name = "met_common_inter_front_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/met_common_inter_back_closed_lod0.msh",
+							name = "met_common_inter_back_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/b4d_det_cantonnement_lod0.msh",
+							name = "b4d_det_cantonnement",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/b4d_det_roof_lod0.msh",
+							name = "b4d_det_roof",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									params = { 
+										id = "ani/close_doors_/right_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/open_doors_/right_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_door_glass.mtl", },
+									mesh = "msh/met_common_door_glass_back_left_lod0.msh",
+									name = "door_glass_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_back_left_lod0.msh",
+									name = "door_mesh_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, 1.09, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_right = { 
+									params = { 
+										id = "ani/close_doors_/left_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/open_doors_/left_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_door_glass.mtl", },
+									mesh = "msh/met_common_door_glass_back_right_lod0.msh",
+									name = "door_glass_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_back_right_lod0.msh",
+									name = "door_mesh_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, -1.09, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									params = { 
+										id = "ani/close_doors_/left_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/open_doors_/left_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_door_glass.mtl", },
+									mesh = "msh/met_common_door_glass_front_left_lod0.msh",
+									name = "door_glass_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_front_left_lod0.msh",
+									name = "door_mesh_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, 1.09, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_right = { 
+									params = { 
+										id = "ani/close_doors_/right_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/open_doors_/right_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_door_glass.mtl", },
+									mesh = "msh/met_common_door_glass_front_right_lod0.msh",
+									name = "door_glass_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_front_right_lod0.msh",
+									name = "door_mesh_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, -1.09, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/b4d_ext_lod0.msh",
+							name = "b4d_ext",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_glass.mtl", "mat/vse_glass_grid.mtl", },
+							mesh = "msh/b4d_glass_lod0.msh",
+							name = "b4d_glass",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_b4d_int.mtl", },
+							mesh = "msh/b4d_int_lod0.msh",
+							name = "b4d_int",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod0.msh",
+									name = "met_common_bogie_y16",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+								},
+							},
+							name = "y16_back",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.73, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod0.msh",
+									name = "met_common_bogie_y16",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+								},
+							},
+							name = "y16_front",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.73, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							name = "innerFront",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							name = "innerBack",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/met_common_inter_front_closed_lod1.msh",
+							name = "met_common_inter_front_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/met_common_inter_back_closed_lod1.msh",
+							name = "met_common_inter_back_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/b4d_det_cantonnement_lod1.msh",
+							name = "b4d_det_cantonnement",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/b4d_det_roof_lod1.msh",
+							name = "b4d_det_roof",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									params = { 
+										id = "ani/close_doors_/right_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/open_doors_/right_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_door_glass.mtl", },
+									mesh = "msh/met_common_door_glass_back_left_lod1.msh",
+									name = "door_glass_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_back_left_lod1.msh",
+									name = "door_mesh_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, 1.09, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_right = { 
+									params = { 
+										id = "ani/close_doors_/left_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/open_doors_/left_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_door_glass.mtl", },
+									mesh = "msh/met_common_door_glass_back_right_lod1.msh",
+									name = "door_glass_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_back_right_lod1.msh",
+									name = "door_mesh_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, -1.09, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									params = { 
+										id = "ani/close_doors_/left_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/open_doors_/left_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_door_glass.mtl", },
+									mesh = "msh/met_common_door_glass_front_left_lod1.msh",
+									name = "door_glass_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_front_left_lod1.msh",
+									name = "door_mesh_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, 1.09, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_right = { 
+									params = { 
+										id = "ani/close_doors_/right_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/open_doors_/right_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_door_glass.mtl", },
+									mesh = "msh/met_common_door_glass_front_right_lod1.msh",
+									name = "door_glass_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_front_right_lod1.msh",
+									name = "door_mesh_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, -1.09, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/b4d_ext_lod1.msh",
+							name = "b4d_ext",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_glass.mtl", "mat/vse_glass_grid.mtl", },
+							mesh = "msh/b4d_glass_lod1.msh",
+							name = "b4d_glass",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_b4d_int.mtl", },
+							mesh = "msh/b4d_int_lod1.msh",
+							name = "b4d_int",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod1.msh",
+									name = "met_common_bogie_y16",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+								},
+							},
+							name = "y16_back",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.73, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod1.msh",
+									name = "met_common_bogie_y16",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+								},
+							},
+							materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+							mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod1.msh",
+							name = "y16_front",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.73, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 400,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							name = "innerFront",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							name = "innerBack",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/met_common_inter_front_closed_lod2.msh",
+							name = "met_common_inter_front_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/met_common_inter_back_closed_lod2.msh",
+							name = "met_common_inter_back_closed",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									params = { 
+										id = "ani/close_doors_/right_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/open_doors_/right_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_back_left_lod2.msh",
+									name = "door_mesh_back_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, 1.09, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_right = { 
+									params = { 
+										id = "ani/close_doors_/left_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/open_doors_/left_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_back_right_lod2.msh",
+									name = "door_mesh_back_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_back_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.215, -1.09, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									params = { 
+										id = "ani/close_doors_/left_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/open_doors_/left_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_front_left_lod2.msh",
+									name = "door_mesh_front_left",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_left",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, 1.09, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_right = { 
+									params = { 
+										id = "ani/close_doors_/right_door_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/open_doors_/right_door_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									materials = { "mat/vse_uas_cantonnement_1.mtl", },
+									mesh = "msh/met_common_door_front_right_lod2.msh",
+									name = "door_mesh_front_right",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "B4D_doors_front_right",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.215, -1.09, 0, 1, },
+						},
+						{ 
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/b4d_ext_lod2.msh",
+							name = "b4d_ext",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod2.msh",
+									name = "met_common_bogie_y16",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod2.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod2.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+								},
+							},
+							name = "y16_back",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.73, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod2.msh",
+									name = "met_common_bogie_y16",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod2.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+								},
+								{ 
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod2.msh",
+									name = "met_common_bogie_wheel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+								},
+							},
+							materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+							mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod2.msh",
+							name = "y16_front",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.73, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 400,
+				visibleTo = 1500,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/vse_uas_cantonnement_1.mtl", },
+							mesh = "msh/vse_body_lod3.msh",
+							name = "vse_body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 1500,
+				visibleTo = 2000,
+			},
+		},
+		metadata = {  
+			availability = { 
+				yearFrom = 1990,
+				yearTo = 0,
+			},
+			cameraConfig = { 
+				positions = {
+					{ 
+						fov = 75,
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.5, 0, 2.43, 1, },
+					},
+				},
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("Departmental crew dormitory service car in SNCF green livery, Lille housing LL."),
+				name = _("SNCF Uas SE Cantonnement 1"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			extent = { 
+				bbMax = { 9.96, 1.45813, 4.02183, },
+				bbMin = { -9.96, -1.45813, 0, },
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.02,
+				topSpeed = 27.7778,
+				weightEmpty = 35000,
+				weightMaxPayload = 0,
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMax = 80,
+						angleMin = 9,
+						backFaceLit = true,
+						color = { 1, 0.86605, 0.468627, },
+						fadeOutStart = 600,
+						fromTime = -1,
+						invertMask = false,
+						length = 13,
+						lightId = "0",
+						mask = 32,
+						meshId = "b4d_int",
+						mode = "LIGHT",
+						radius = 4,
+						strength = 5,
+						toTime = -1,
+						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 4, 1, },
+						type = "CYLINDRICAL",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+				},
+			},
+			loadIndicator = { 
+				configs = { 
+					slots_0 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+								},
+							},
+						},
+					},
+					slots_1 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 0, 1, },
+									{ 0, 1, 2, },
+									{ 0, 1, 2, 3, },
+									{ 0, 1, 2, 3, 4, },
+									{ 0, 1, 2, 3, 4, 5, },
+									{ 0, 1, 2, 3, 4, 5, 6, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, },
+								},
+							},
+						},
+					},
+				},
+				slots = {
+					{ 
+						group = "RootNode",
+						models = { "/assets/vehicle/train/met_se/curtains_uas_blanc.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "RootNode",
+						models = { "::/assets/buildings/ind/boxes/box_cardboard_cubic.mdl", },
+						randomId = 1,
+						transf = { 0.0191974, -0.999816, 0, 0, 0.999816, 0.0191974, 0, 0, 0, 0, 1, 0, -3.5, -0.38, 1.33, 1, },
+					},
+					{ 
+						group = "RootNode",
+						models = { "::/assets/buildings/ind/boxes/box_cardboard_cubic.mdl", },
+						randomId = 1,
+						transf = { 0.246999, -0.969016, 0, 0, 0.969016, 0.246999, 0, 0, 0, 0, 1, 0, -2.54, -0.23, 1.33, 1, },
+					},
+					{ 
+						group = "RootNode",
+						models = { "::/assets/buildings/ind/boxes/box_cardboard_cubic.mdl", },
+						randomId = 1,
+						transf = { 0.931691, 0.363251, 0, 0, -0.363251, 0.931691, 0, 0, 0, 0, 1, 0, -1.65, 0.72, 1.33, 1, },
+					},
+					{ 
+						group = "RootNode",
+						models = { "::/assets/buildings/ind/boxes/box_cardboard_long.mdl", },
+						randomId = 1,
+						transf = { 0.999816, -0.0191974, 0, 0, 0.0191974, 0.999816, 0, 0, 0, 0, 1, 0, -6.86, 0.61, 1.33, 1, },
+					},
+					{ 
+						group = "RootNode",
+						models = { "::/assets/buildings/ind/boxes/box_cardboard_long.mdl", },
+						randomId = 1,
+						transf = { 0.0366437, 0.999328, 0, 0, -0.999328, 0.0366437, 0, 0, 0, 0, 1, 0, -5.52, -0.29, 1.33, 1, },
+					},
+					{ 
+						group = "RootNode",
+						models = { "::/assets/buildings/ind/boxes/box_cardboard_long.mdl", },
+						randomId = 1,
+						transf = { -0.2706, -0.962692, 0, 0, 0.962692, -0.2706, 0, 0, 0, 0, 1, 0, -5.52, 0.25, 1.86, 1, },
+					},
+					{ 
+						group = "RootNode",
+						models = { "::/assets/buildings/ind/boxes/box_cardboard_cubic.mdl", },
+						randomId = 1,
+						transf = { 0.519519, -0.854459, 0, 0, 0.854459, 0.519519, 0, 0, 0, 0, 1, 0, -2.93, -0.23, 1.84, 1, },
+					},
+				},
+			},
+			maintenance = { 
+				lifespan = 36525,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "met_common_bogie_wheel", },
+					fakeBogies = {
+						{ },
+						{ },
+						{ },
+						{ },
+					},
+				},
+			},
+			seatProvider = { 
+				crewModels = { },
+				drivingLicense = "RAIL",
+				seats = {
+					{ 
+						animation = "sitting",
+						crew = true,
+						group = "RootNode",
+						transf = { 0.9, 0, -3.84894e-07, 0, 0, 0.9, 3.41182e-07, 0, 3.84894e-07, -3.41182e-07, 0.9, 0, -8.13145, 1.13, 1.43334, 1, },
+					},
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "sncf_common_kit::/vehicle/train/sncf_common/sound/voiture_se.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 32,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/passengers/passengers.cargo", },
+									},
+									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 10,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTransportModes = { },
+				entrances = {
+					{
+						path = {
+							{ -8.9, -3.0, 0.56, },
+							{ -8.9, -0.5, 1.57, },
+						},
+					},
+					{
+						path = {
+							{ 8.9, -3.0, 0.56, },
+							{ 8.9, -0.5, 1.57, },
+						},
+					},
+					{
+						path = {
+							{ -8.9, 3.0, 0.56, },
+							{ -8.9, 0.5, 1.57, },
+						},
+					},
+					{
+						path = {
+							{ 8.9, 3.0, 0.56, },
+							{ 8.9, 0.5, 1.57, },
+						},
+					},
+				},
+filterTags = { "default", },
+				groupFileName = "vse_uas_sncf_menu.mdl",
+				loadSpeed = 2,
+				arrivalDelay = 4000,
+				departureDelay = 5000,
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end
